@@ -86,7 +86,7 @@
 
                 <ul>
                     @foreach ($clients as $client)
-                        <li>{{$client['nom']}}ؤح {{$client['prenom']}} : {{$client['tel']}}</li>
+                        <li>{{$client['nom']}}  {{$client['prenom']}} : {{$client['tel']}}</li>
                     @endforeach
                 </ul>
             </div>
